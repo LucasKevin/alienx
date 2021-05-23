@@ -35,8 +35,9 @@ header div ul li {
 .container-main {
     display:flex;
     padding-top: 100px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .shadow {
@@ -91,4 +92,5 @@ footer {
     color: rgb(97, 94, 94);
     font-size: 15px;
     padding: 10px;
+
 }

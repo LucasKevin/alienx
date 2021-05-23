@@ -1,0 +1,18 @@
+.title-system {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}
+
+.img-system {
+    width: 90%;
+    margin: 20px;
+}
+
+.text-system {
+    text-align: center;
+    width: 90%;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
