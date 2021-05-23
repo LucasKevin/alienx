@@ -1,0 +1,94 @@
+header {
+    width: 100%;
+    background-color: #FFF;
+    position: fixed;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #CCC 1px solid;
+
+}
+
+header div ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header div ul li {
+  display: block;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  padding: 15px;
+    
+}
+
+.logo {
+    color:blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; 
+}
+
+.container-main {
+    display:flex;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shadow {
+    box-shadow: 0.1em 0.1em 0.3em rgba(0,0,0,0.3);
+
+}
+
+.card {
+    width: 50%;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.article-header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.article-header div:first-child {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.card a {
+    width: 10%;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    text-align: center;
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(97, 94, 94);
+    font-size: 15px;
+    padding: 10px;
+}
